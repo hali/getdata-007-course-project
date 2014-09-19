@@ -18,7 +18,7 @@ The run_analysis.R script goes through the following steps to tidy up the input 
 4. Labels for columns are taken from the features.txt file, and added to the dataset.
 5. Subject information is added to the main dataset as a new column.
 6. Activity information is added to the main dataset as a new column.
-7. As required by the assignment, average is calculated for each Subject for each activity. Given 6 activity types and 30 subjects, this gives 180 rows in the resulting dataset.
+7. As required by the assignment, average is calculated for each variable, for each subject for each activity. Given 6 activity types and 30 subjects, this gives us 180 rows in the resulting dataset.
 8. Variables/Column names in the resulting dataset are changed for easier processing: brackets are removed, and everything is converted to lower case. Dashes are not removed, because such a removal would've made it hard to read for humans.
 9. Resulting dataset is saved in the initial working directory as "resulting-set.txt".
 
