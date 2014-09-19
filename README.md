@@ -11,6 +11,7 @@ It is assumed that order of rows in every file in the dataset is the same, and t
 
 #Steps#
 The run_analysis.R script goes through the following steps to tidy up the input data:
+
 1. The zip file with input data is unarchived.
 2. Test and Training datasets are merged into one dataset, with Training set at the top and Test set at the bottom. This is applied to both X, Y and subject files, which contain measurements, activity and subject information appropriately.
 3. As required by the assignment, only the columns that contain std or mean measurements are taken. The columns are selected that have either std() or mean() in their name. A filter is hardcoded, because the input dataset is not expected to change, and hardcoding column indexes is faster on the execution time than calculating which columns to take each time a new.
