@@ -7,6 +7,7 @@ Reference:
 #Setup and assumptions#
 Before runing the script please make sure that "getdata-projectfiles-UCI HAR Dataset.zip" containing the input data is located in your working directory.
 The script will only work with this exact zip file which is originally located on the http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones site.
+
 It is assumed that order of rows in every file in the dataset is the same, and thus it is possible to correlate for example activity and measurement from different files.
 
 #Steps#
